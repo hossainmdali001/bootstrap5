@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1.h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: .8s;
+}
+
+/* all common css end  */
+
+/* header part start  */
+
+.navbar{
+    position: fixed;
+    /* background-color: salmon; */
+    top: 0;
+    z-index: 22222;
+    width: 100%;
+
+}
+.bgg{
+    background: #d8780a;
+    padding: 10px 0px;
+    animation:menu 1s ;
+    -webkit-animation:menu 1s ;
+}
+@keyframes menu{
+from{top: -100px;}
+to{top: 0px;}
+}
+.navbar-light .navbar-nav .nav-link {
+	font-family: serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	padding-left: 15px;
+	text-transform: capitalize;
+    line-height: 50px;
+
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: saddlebrown;
+}
+
+
+/* slider  */
+#id{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(../images/hafffsa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* offcanvas  */
+.ssss{
+    color:#d8780a;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.vaiya{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #d8780a;
+}
+.vaiya span{
+    color: blue;
+}
+
+.brother{
+    color: crimson;
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+.sathi{
+    width: 200px;
+    padding: 15px 15px;
+    background: #d8780a;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.ontor{
+    color: rgb(4, 243, 132);
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.amar{
+    text-transform: lowercase;
+    color: rgb(4, 243, 132);
+    font-size: 30px;
+    /* text-transform: capitalize; */
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* .developer{
+    margin-bottom: 50px;
+} */
+
+.hossain{
+    margin-bottom: 40px;
+}
